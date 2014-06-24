@@ -4,11 +4,33 @@
   <meta charset="utf-8">
   <title>Victims & Volunteers B3</title>
   <link rel="stylesheet" type="text/css" href="http://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.1/normalize.min.css">
-  <link rel="stylesheet" type="text/css" href="main.css">
+  <link rel="stylesheet" type="text/css" href="main-b3.css">
 </head>
 <body>
 	
-  <script src="main-b3.js"></script>
+	<form action="" method="">
+		<div>
+			<label for="fname">Name:</label>
+			<input type="text" id="fname">
+		</div>
+		<div>
+			<label for="phone">Phone:</label>
+			<input type="phone" id="phone">
+		</div>
+		<div>
+			<label for="street">Street:</label>
+			<input type="street" id="street">
+		</div>
+		<div class="radio">
+			<input type="radio" name="vtype" value="victim" checked> Victim
+			<input type="radio" name="vtype" value="volunteer"> Volunteer
+		</div>
+		<div class="button">
+			<button type="submit">Add person</button>
+		</div>
+	</form>
+
+  	<script src="main-b3.js"></script>
 
 </body>
 </html>

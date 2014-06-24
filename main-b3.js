@@ -15,7 +15,7 @@ function getVolunteers(n) {
 }
 
 
-var nbrVic = getVictims();
+// var nbrVic = getVictims();
 
 var arrVicName = [];
 var arrVicPhone = [];
@@ -28,7 +28,7 @@ for (var i = 1; i <= nbrVic; i++) {
 };
 
 
-var nbrVol = getVolunteers();
+// var nbrVol = getVolunteers();
 
 var arrVolName = [];
 var arrVolPhone = [];
@@ -40,4 +40,4 @@ for (var i = 1; i <= nbrVol; i++) {
 	arrVolStreet.push(prompt("Enter street "));
 };
 
-alert("Victims: " + nbrVic + ", Volunteers: " + nbrVol + ", Victim names: " + arrVicName + ", Volunteer names: " + arrVolName);
+// alert("Victims: " + nbrVic + ", Volunteers: " + nbrVol + ", Victim names: " + arrVicName + ", Volunteer names: " + arrVolName);
