@@ -1,14 +1,14 @@
-function isNbr(n) {
+var isNbr = function(n) {
 	return !isNaN(parseFloat(n)) && isFinite(n);
 }
 
-function getVictims(n) {
+var getVictims = function() {
 	var x = 0;
 	if(!(isNbr(x = prompt("Enter nbr of victims")))) {	x = getVictims(); }
 	return x;
 }
 
-function getVolunteers(n) {
+var getVolunteers = function() {
 	var x = 0;
 	if(!(isNbr(x = prompt("Enter nbr of volunteers")))) {	x = getVolunteers(); }
 	return x;
